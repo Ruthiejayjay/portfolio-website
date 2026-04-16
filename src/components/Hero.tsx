@@ -8,11 +8,11 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28 lg:pt-32 border-b border-[#222] overflow-hidden"
+      className="relative min-h-screen flex items-center px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28 lg:pt-32 overflow-hidden"
     >
       {/* Noise */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-70"
+        className="absolute inset-0 pointer-events-none opacity-40"
         style={{
           backgroundImage: "url('/images/hero-noise.png')",
           backgroundRepeat: "repeat",
@@ -71,7 +71,7 @@ export default function Hero() {
       </div>
 
       {/* Bottom Fade Overlay */}
-      <div className="absolute bottom-0 left-0 w-full h-[180px] bg-gradient-to-b from-transparent to-[#1C1C1C] pointer-events-none z-20" />
+      <div className="absolute bottom-0 left-0 w-full h-[180px] bg-gradient-to-b from-transparent to-[#1C1C1C] pointer-events-none z-40" />
     </section>
   );
 }
