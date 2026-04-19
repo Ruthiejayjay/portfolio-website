@@ -11,7 +11,7 @@ export const experienceItems: ExperienceItem[] = [
     period: "Mar 2025 — Present",
     company: "Spent (SpentNow, Spent Business, Giftas, Boloso)",
     role: "Backend Developer",
-    type: "Remote",
+    type: "Nigeria . Remote",
     bullets: [
       "Maintain and enhance backend systems powering live fintech platforms serving real users.",
       "Develop and ship features using Laravel, Inertia.js, and Filament.",
@@ -24,7 +24,7 @@ export const experienceItems: ExperienceItem[] = [
     period: "Oct 2023 — Dec 2025",
     company: "Aptiw Ltd (Clientforce)",
     role: "Full-Stack Developer",
-    type: "Remote",
+    type: "Nigeria · Remote",
     bullets: [
       "Built and maintained SaaS applications using Laravel, Express.js, and GraphQL.",
       "Developed frontend interfaces using Next.js and Vue.js.",
@@ -37,7 +37,7 @@ export const experienceItems: ExperienceItem[] = [
     period: "Sept 2023 — Oct 2023",
     company: "HNG Internship",
     role: "Full-Stack Developer",
-    type: "Remote",
+    type: "Remote · Internship",
     bullets: [
       "Designed database schemas and API specifications for collaborative projects.",
       "Built backend features using Laravel.",
@@ -61,7 +61,7 @@ export const experienceItems: ExperienceItem[] = [
     period: "Feb 2021 — Sept 2022",
     company: "New Devz",
     role: "Project Manager / Full Stack Developer",
-    type: "Nigeria",
+    type: "Nigeria . Remote",
     bullets: [
       "Led delivery of 10+ web projects from conception to deployment.",
       "Built fintech applications integrating Paystack and Flutterwave payment systems.",
@@ -73,14 +73,13 @@ export const experienceItems: ExperienceItem[] = [
 ];
 
 export const techStack: TechItem[] = [
-  { line: 1, name: "laravel", color: "#ff4433" },
-  { line: 2, name: "react.js", color: "#61dafb" },
-  { line: 3, name: "vue />" },
-  { line: 4, name: "next.js", color: "#ffffff" },
-  { line: 5, name: "node.js", color: "#4ade80" },
-  { line: 6, name: "tailwind //", color: "#38bdf8" },
-  { line: 7, name: "GraphQL" },
-  { line: 8, name: "shadcn/ui" },
+  { line: 1, name: "<Laravel />", color: "#ff4433" },
+  { line: 2, name: "<PHP />", color: "#0885FD" },
+  { line: 3, name: "<React.js />", color: "#61dafb" },
+  { line: 4, name: "<Vue />", color: "#42b883" },
+  { line: 5, name: "<Next.js />", color: "#C02FFF" },
+  { line: 6, name: "<Node.js />", color: "#4ade80" },
+  { line: 7, name: "<Express.js />", color: "#38bdf8" },
+  { line: 8, name: "<GraphQL />" },
   { line: 9, name: "...and many more //" },
-  { line: 10, name: "tailwind" },
 ];

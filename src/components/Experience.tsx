@@ -61,7 +61,7 @@ export default function Experience() {
             ))}
 
             {/* Download CV */}
-            <div className="pt-10">
+            <div className="pt-4">
               <a
                 href="/ruth-james-cv.pdf"
                 download

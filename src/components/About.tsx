@@ -1,5 +1,6 @@
 "use client";
 import Experience from "./Experience";
+import TechStack from "./Techstack";
 
 export default function About() {
   return (
@@ -23,25 +24,28 @@ export default function About() {
           </div>
 
           {/* Paragraph */}
-          <div className="font-nunito space-y-5 sm:space-y-6 max-w-3xl">
-            <p className="text-white leading-relaxed text-sm sm:text-[0.95rem]">
-              I&apos;m a Full-Stack Developer with over 4 years of experience
-              building production-ready web applications across fintech and SaaS
-              industries.
-            </p>
+          <div className="space-y-5 sm:space-y-6 max-w-3xl">
+            <div className="font-nunito space-y-5 sm:space-y-6">
+              <p className="text-white leading-relaxed text-sm sm:text-[0.95rem]">
+                I&apos;m a Full-Stack Developer with over 4 years of experience
+                building production-ready web applications across fintech and
+                SaaS industries.
+              </p>
 
-            <p className="text-white leading-relaxed text-sm sm:text-[0.95rem]">
-              I specialize in Laravel, Express.js, GraphQL, and modern frontend
-              frameworks like Next.js and Vue. My experience spans API
-              architecture, payment integrations, authentication systems, and
-              scalable backend design.
-            </p>
+              <p className="text-white leading-relaxed text-sm sm:text-[0.95rem]">
+                I specialize in Laravel, Express.js, GraphQL, and modern
+                frontend frameworks like Next.js and Vue. My experience spans
+                API architecture, payment integrations, authentication systems,
+                and scalable backend design.
+              </p>
 
-            <p className="text-white leading-relaxed text-sm sm:text-[0.95rem]">
-              I&apos;ve worked with both Nigerian and international teams,
-              contributing to applications used by real customers globally.
-            </p>
+              <p className="text-white leading-relaxed text-sm sm:text-[0.95rem]">
+                I&apos;ve worked with both Nigerian and international teams,
+                contributing to applications used by real customers globally.
+              </p>
+            </div>
             <Experience />
+            <TechStack />
           </div>
         </div>
       </div>
