@@ -1,10 +1,11 @@
 "use client";
+import Experience from "./Experience";
 
 export default function About() {
   return (
     <section
       id="about"
-      className="relative px-4 sm:px-6 lg:px-8 py-20 sm:py-24 overflow-hidden bg-[#1C1C1C]"
+      className="relative px-4 sm:px-6 lg:px-8 py-20 sm:py-24 overflow-hidden"
     >
       {/* Top Fade */}
       <div className="absolute top-0 left-0 w-full h-[100px] bg-gradient-to-b from-[#1C1C1C] via-[#1C1C1C]/70 to-transparent pointer-events-none z-10" />
@@ -40,6 +41,7 @@ export default function About() {
               I&apos;ve worked with both Nigerian and international teams,
               contributing to applications used by real customers globally.
             </p>
+            <Experience />
           </div>
         </div>
       </div>
