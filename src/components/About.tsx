@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative px-4 sm:px-6 lg:px-8 py-20 sm:py-24 overflow-hidden"
+      className="relative px-4 sm:px-6 lg:px-8 pt-20 pb-12 sm:py-24 overflow-hidden"
     >
       {/* Top Fade */}
       <div className="absolute top-0 left-0 w-full h-[100px] bg-gradient-to-b from-[#1C1C1C] via-[#1C1C1C]/70 to-transparent pointer-events-none z-10" />

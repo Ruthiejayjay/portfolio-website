@@ -18,7 +18,7 @@ export default function Navbar() {
             <span className="text-white font-bold">&gt;</span>
           </div>
           <span
-            className="text-lg md:text-xl font-bold tracking-widest"
+            className="text-lg md:text-2xl font-bold tracking-widest"
             style={{ fontFamily: "Impact, sans-serif", fontWeight: 400 }}
           >
             RUTH

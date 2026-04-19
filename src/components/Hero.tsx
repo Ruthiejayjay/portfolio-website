@@ -47,7 +47,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://github.com"
+              href="https://github.com/Ruthiejayjay"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono inline-flex items-center justify-center gap-2 px-5 sm:px-6 py-3 bg-transparent text-[#f0f0f0] border border-[#2a2a2a] font-semibold text-base sm:text-lg rounded-xl hover:border-[#555] transition-colors w-full sm:w-auto"
