@@ -53,7 +53,9 @@ export default function TechStack() {
                 <span className="text-[#555] select-none w-6 text-right shrink-0">
                   {String(tech.line).padStart(2, "0")}.
                 </span>
-                <span className={tech.color}>{tech.name}</span>
+                <span style={{ color: tech.color ?? "#888888" }}>
+                  {tech.name}
+                </span>
               </motion.div>
             ))}
           </motion.div>
