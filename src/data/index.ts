@@ -78,8 +78,9 @@ export const techStack: TechItem[] = [
   { line: 3, name: "<React.js />", color: "#61dafb" },
   { line: 4, name: "<Vue />", color: "#42b883" },
   { line: 5, name: "<Next.js />", color: "#C02FFF" },
-  { line: 6, name: "<Node.js />", color: "#4ade80" },
-  { line: 7, name: "<Express.js />", color: "#38bdf8" },
-  { line: 8, name: "<GraphQL />" },
-  { line: 9, name: "...and many more //" },
+  { line: 6, name: "<NestJS />", color: "#e0234e" },
+  { line: 7, name: "<Node.js />", color: "#4ade80" },
+  { line: 8, name: "<Express.js />", color: "#38bdf8" },
+  { line: 9, name: "<GraphQL />" },
+  { line: 10, name: "...and many more //" },
 ];
